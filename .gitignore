@@ -1,0 +1,36 @@
+## ====== VISUAL STUDIO / C# BACKEND ======
+# Lokale Cache-Ordner von Visual Studio (Die Hauptursache für deine Konflikte!)
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build-Ordner der API (Kompilierte Dateien gehören nicht auf Git)
+[Dd]ebug/
+[Rr]elease/
+bin/
+obj/
+
+# Weitere VS- und Rider-Metadaten
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln.iml
+
+## ====== NODE / REACT FRONTEND ======
+# Abhängigkeiten (Werden lokal per 'npm install' generiert)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Produktions-Builds vom Frontend
+dist/
+build/
+
+## ====== SYSTEMDATEIEN ======
+# Betriebssystem-Dateien (Mac / Windows)
+.DS_Store
+Thumbs.db
