@@ -23,6 +23,34 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+<<<<<<< Updated upstream
+=======
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\JTLPr\\Documents\\GitHub\\jtl-projekt\\backend\\HardwarePlanetApi\\HardwarePlanetApi\\Program.cs",
+              "RelativeDocumentMoniker": "HardwarePlanetApi\\Program.cs",
+              "ToolTip": "C:\\Users\\JTLPr\\Documents\\GitHub\\jtl-projekt\\backend\\HardwarePlanetApi\\HardwarePlanetApi\\Program.cs",
+              "RelativeToolTip": "HardwarePlanetApi\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-30T07:07:54.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\JTLPr\\Documents\\GitHub\\jtl-projekt\\backend\\HardwarePlanetApi\\HardwarePlanetApi\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "HardwarePlanetApi\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\JTLPr\\Documents\\GitHub\\jtl-projekt\\backend\\HardwarePlanetApi\\HardwarePlanetApi\\Properties\\launchSettings.json",
+              "RelativeToolTip": "HardwarePlanetApi\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-06-30T07:07:25.171Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+>>>>>>> Stashed changes
               "Title": "ProductController.cs",
               "DocumentMoniker": "C:\\Users\\JTLPr\\Documents\\GitHub\\jtl-projekt\\backend\\HardwarePlanetApi\\HardwarePlanetApi\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "HardwarePlanetApi\\Controllers\\ProductController.cs",
@@ -30,8 +58,7 @@
               "RelativeToolTip": "HardwarePlanetApi\\Controllers\\ProductController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-29T10:50:00.166Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-29T10:50:00.166Z"
             },
             {
               "$type": "Document",
