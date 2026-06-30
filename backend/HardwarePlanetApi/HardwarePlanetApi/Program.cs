@@ -1,9 +1,19 @@
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+// 1. CORS-Policy registrieren (Erlaubt deinem React-Frontend den Zugriff)
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowFrontend",
+        policy =>
+        {
+            policy.AllowAnyOrigin()   // Erlaubt Anfragen von jeder Adresse (z. B. localhost:5173)
+                  .AllowAnyMethod()   // Erlaubt GET, POST, PUT, DELETE etc.
+                  .AllowAnyHeader();  // Erlaubt alle Header-Angaben
+        });
+});
 
+builder.Services.AddSwaggerGen();
 builder.Services.AddControllers();
-// Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
 
 var app = builder.Build();
@@ -11,8 +21,12 @@ var app = builder.Build();
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
-    app.MapOpenApi();
+    app.UseSwagger();
+    app.UseSwaggerUI(); // Aktiviert die Swagger-Benutzeroberfläche
 }
+
+// 2. CORS-Policy aktivieren (Muss unbedingt VOR den Controllern stehen!)
+app.UseCors("AllowFrontend");
 
 app.UseAuthorization();
 

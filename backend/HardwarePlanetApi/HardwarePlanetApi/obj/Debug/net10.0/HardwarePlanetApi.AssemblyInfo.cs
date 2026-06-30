@@ -14,11 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HardwarePlanetApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-<<<<<<< Updated upstream
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6b8ea238124388100b9152bbf8cf840351868e0c")]
-=======
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a4444b7e1727067ed61b31a892121ebcbeba3c2f")]
->>>>>>> Stashed changes
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+338f0446a4abd715fd0506a5534d21bbb8089d8c")]
 [assembly: System.Reflection.AssemblyProductAttribute("HardwarePlanetApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HardwarePlanetApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

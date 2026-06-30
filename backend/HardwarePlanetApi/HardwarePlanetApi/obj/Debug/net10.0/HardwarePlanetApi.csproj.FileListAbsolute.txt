@@ -33,3 +33,6 @@ C:\Users\JTLPr\Documents\GitHub\jtl-projekt\backend\HardwarePlanetApi\HardwarePl
 C:\Users\JTLPr\Documents\GitHub\jtl-projekt\backend\HardwarePlanetApi\HardwarePlanetApi\obj\Debug\net10.0\HardwarePlanetApi.pdb
 C:\Users\JTLPr\Documents\GitHub\jtl-projekt\backend\HardwarePlanetApi\HardwarePlanetApi\obj\Debug\net10.0\HardwarePlanetApi.genruntimeconfig.cache
 C:\Users\JTLPr\Documents\GitHub\jtl-projekt\backend\HardwarePlanetApi\HardwarePlanetApi\obj\Debug\net10.0\ref\HardwarePlanetApi.dll
+C:\Users\JTLPr\Documents\GitHub\jtl-projekt\backend\HardwarePlanetApi\HardwarePlanetApi\bin\Debug\net10.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\JTLPr\Documents\GitHub\jtl-projekt\backend\HardwarePlanetApi\HardwarePlanetApi\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\JTLPr\Documents\GitHub\jtl-projekt\backend\HardwarePlanetApi\HardwarePlanetApi\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerUI.dll

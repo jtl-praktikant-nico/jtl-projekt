@@ -20,17 +20,31 @@ namespace HardwarePlanetApi.Controllers
             return Ok(Products);
         }
 
-        [HttpGet]
-        public ActionResult<Product> GetProductById(int id )
+        [HttpGet("{id}")]
+        public ActionResult<Product> GetProductById(int id)
         {
-            var pruduct = Products.FirstOrDefault(p => p.Id == id); // sucht nach einem Produkt mit der angegebenen Id 
-            if (pruduct == null) // wird kein product gefunden wird Not Found zurückgegeben
+            var product = Products.FirstOrDefault(p => p.Id == id);
+            if (product == null)
             {
                 return NotFound();
             }
-            return Ok(pruduct);
+            return Ok(product);
         }
 
-
+        [HttpPost]
+        public ActionResult<Product> CreateProduct(Product product)
+        {
+            if (string.IsNullOrWhiteSpace(product.Name))
+            {
+                return BadRequest("Das product muss einen Namen haben.");
+            }
+            var productCheck = Products.FirstOrDefault(p => p.Id == product.Id);
+            if (productCheck != null)
+            {
+                return BadRequest("Ein Produkt mit dieser Id existiert bereits.");
+            }
+            Products.Add(product);
+            return Ok(product);
+        }
     }
 }
